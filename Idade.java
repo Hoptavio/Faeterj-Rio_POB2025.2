@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Maior18
+public class Idade
 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -8,6 +8,9 @@ public class Maior18
 		int idade = scanner.nextInt();
 		if(idade >=18) {
 			System.out.print("Maior de idade");
+		}
+		else{
+		    	System.out.print("Menor de idade");
 		}
 	}
 }

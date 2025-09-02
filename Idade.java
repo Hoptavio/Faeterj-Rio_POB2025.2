@@ -12,5 +12,6 @@ public class Idade
 		else{
 		    	System.out.print("Menor de idade");
 		}
+		scanner.close();
 	}
 }

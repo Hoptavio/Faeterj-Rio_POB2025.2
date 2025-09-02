@@ -15,5 +15,6 @@ public class MaiorNum
 		else {
 			System.out.print("o maior numero digitado foi: "+num2);
 		}
+		scanner.close();
 	}
 }

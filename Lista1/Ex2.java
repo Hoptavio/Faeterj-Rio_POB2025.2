@@ -10,6 +10,7 @@ public class Ex2
 		System.out.print("==Area do circulo==");
 		double area = pi *(raio*raio);
 		System.out.print(area);
+		scanner.close();
 	}
 	
 }

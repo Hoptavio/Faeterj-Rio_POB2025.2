@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int [] num = new int[8];
+		int tam = num.length;
+		int n;
+		int par=0;
+		boolean achou = false;
+		for(int i=0;i<tam;i++){
+		    System.out.print("Digite o numero para posição "+(i+1)+": ");
+		    num[i] = sc.nextInt();
+		}
+		System.out.print("Digite o numero a ser encontrado: ");
+		n = sc.nextInt();
+		for(int i=0;i<tam;i++){
+		    if(num[i]==n){
+		        achou=true;
+		        System.out.print("Número "+n+" encontrado na posição "+(i+1));
+		        break;
+		    }
+		}
+		if(!achou){
+		    System.out.print("Número não encontrado");
+		}
+	}
+}
